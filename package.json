@@ -1,0 +1,28 @@
+{
+  "name": "node-scraper",
+  "version": "1.0.0",
+  "description": "A node js scraper to get info from webpages.",
+  "main": "scraper.js",
+  "dependencies": {
+    "add": "^2.0.6",
+    "scraper": "^0.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node scraper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnysmillie/node-scraper.git"
+  },
+  "keywords": [
+    "node",
+    "scraper"
+  ],
+  "author": "Jonny Smillie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnysmillie/node-scraper/issues"
+  },
+  "homepage": "https://github.com/jonnysmillie/node-scraper#readme"
+}
