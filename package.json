@@ -1,13 +1,8 @@
 {
-  "name": "node-scraper",
+  "name": "nodejs-scraper",
   "version": "1.0.0",
-  "description": "A node js scraper to get info from webpages.",
+  "description": "A nodejs app to scrape webpages.",
   "main": "scraper.js",
-  "dependencies": {
-    "add": "^2.0.6",
-    "scraper": "^0.0.9"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "node scraper.js"
   },
@@ -24,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/jonnysmillie/node-scraper/issues"
   },
-  "homepage": "https://github.com/jonnysmillie/node-scraper#readme"
+  "homepage": "https://github.com/jonnysmillie/node-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "json2csv": "^3.7.3",
+    "request": "^2.79.0",
+    "time-stamp": "^1.0.1"
+  }
 }
